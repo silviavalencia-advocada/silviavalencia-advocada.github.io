@@ -3,7 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sílvia València Farrés | Advocada Vic</title>
+    
+    <title>Sílvia València Farrés | Advocada a Vic | Dret Civil i Família</title>
+    <meta name="description" content="Sílvia València Farrés, advocada col·legiada a Vic amb més de 20 anys d'experiència. Especialista en Dret de Família, Successions, herències i Dret Civil.">
+    <meta name="keywords" content="advocada Vic, advocat Vic, dret de família Vic, herències Vic, successions Vic, Sílvia València Farrés, dret civil Osona">
+    <meta name="author" content="Sílvia València Farrés">
+    <link rel="canonical" href="https://www.silviavalencia.cat">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sílvia València Farrés | Advocada a Vic">
+    <meta property="og:description" content="Assessorament jurídic integral en dret civil, successions i família a Vic. Més de 20 anys d'experiència.">
+    <meta property="og:url" content="https://www.silviavalencia.cat">
+    <meta property="og:site_name" content="Sílvia València Farrés Advocada">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Sílvia València Farrés",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rambla de l'Hospital, 6, 3r 3a",
+        "addressLocality": "Vic",
+        "addressRegion": "Barcelona",
+        "postalCode": "08500",
+        "addressCountry": "ES"
+      },
+      "telephone": "+34660794079",
+      "email": "silviavalencia@icavic.cat",
+      "url": "https://www.silviavalencia.cat",
+      "image": "https://www.silviavalencia.cat/logo.jpg",
+      "priceRange": "$$",
+      "description": "Especialista en Dret Civil, Successions i Família amb més de 20 anys d'experiència a Vic.",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Il·lustre Col·legi d'Advocats de Vic (ICAVIC)"
+      }
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -11,65 +49,53 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Playfair Display', serif; }
-        
-        /* Animation replacements for framer-motion */
-        .reveal {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
         .stagger-1 { transition-delay: 0.1s; }
         .stagger-2 { transition-delay: 0.2s; }
         .stagger-3 { transition-delay: 0.3s; }
-
-        .hero-pattern {
-            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
-            background-size: 16px 16px;
-            mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%);
-        }
+        .hero-pattern { background-image: radial-gradient(#e5e7eb 1px, transparent 1px); background-size: 16px 16px; mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%); }
     </style>
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900 selection:bg-amber-100 selection:text-amber-900">
 
-    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex-shrink-0 flex items-center gap-2">
-                    <i data-lucide="scale" class="h-6 w-6 text-amber-700"></i>
-                    <span class="font-serif text-xl font-bold tracking-tight text-slate-800">Sílvia València Farrés</span>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#serveis" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Serveis</a>
-                    <a href="#experiencia" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Experiència</a>
-                    <a href="#contacte" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Contacte</a>
+    <header>
+        <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16 items-center">
+                    <div class="flex-shrink-0 flex items-center gap-2">
+                        <i data-lucide="scale" class="h-6 w-6 text-amber-700" aria-hidden="true"></i>
+                        <span class="font-serif text-xl font-bold tracking-tight text-slate-800">Sílvia València Farrés</span>
+                    </div>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#serveis" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Serveis</a>
+                        <a href="#experiencia" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Experiència</a>
+                        <a href="#contacte" class="text-sm font-medium text-slate-600 hover:text-amber-700 transition-colors">Contacte</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
         <section class="relative py-20 lg:py-32 overflow-hidden bg-white">
             <div class="absolute inset-0 hero-pattern opacity-30"></div>
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <div class="max-w-3xl reveal active">
-                    <div class="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-amber-50 text-amber-800 ring-1 ring-inset ring-amber-600/20 mb-6">
+                    <span class="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-amber-50 text-amber-800 ring-1 ring-inset ring-amber-600/20 mb-6">
                         Advocada Col·legiada ICAVIC
-                    </div>
+                    </span>
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-tight mb-6">
-                        Especialista en Dret Civil, Successions i Família
+                        Especialista en Dret Civil, Successions i Família a Vic
                     </h1>
                     <p class="text-xl text-slate-600 leading-relaxed mb-10">
-                        Més de 20 anys d'experiència oferint assessorament jurídic integral a Vic, amb un enfocament humà i professional en la resolució de conflictes familiars i patrimonials.
+                        Més de 20 anys d'experiència oferint assessorament jurídic integral, amb un enfocament humà i professional en la resolució de conflictes familiars i patrimonials.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#contacte" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-slate-900 hover:bg-slate-800 focus:outline-none transition-all hover:scale-105 active:scale-95">
+                        <a href="#contacte" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-slate-900 hover:bg-slate-800 transition-all hover:scale-105 active:scale-95">
                             Sol·licitar consulta
                         </a>
-                        <a href="#serveis" class="inline-flex items-center px-6 py-3 border border-slate-300 text-base font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 focus:outline-none transition-all hover:scale-105 active:scale-95">
+                        <a href="#serveis" class="inline-flex items-center px-6 py-3 border border-slate-300 text-base font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 transition-all hover:scale-105 active:scale-95">
                             Veure especialitats
                         </a>
                     </div>
@@ -77,20 +103,20 @@
             </div>
         </section>
 
-        <section class="bg-slate-900 py-12">
+        <section class="bg-slate-900 py-12" aria-label="Estadístiques">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     <div class="p-6 reveal stagger-1">
                         <div class="text-4xl font-bold text-amber-400 mb-2">+20</div>
-                        <div class="text-slate-300 font-medium">Anys d'experiència</div>
+                        <p class="text-slate-300 font-medium">Anys d'experiència</p>
                     </div>
                     <div class="p-6 reveal stagger-2">
                         <div class="text-4xl font-bold text-amber-400 mb-2">+60</div>
-                        <div class="text-slate-300 font-medium">Casos resolts anualment</div>
+                        <p class="text-slate-300 font-medium">Casos resolts anualment</p>
                     </div>
                     <div class="p-6 reveal stagger-3">
                         <div class="text-4xl font-bold text-amber-400 mb-2">100%</div>
-                        <div class="text-slate-300 font-medium">Compromís i rigor</div>
+                        <p class="text-slate-300 font-medium">Compromís i rigor</p>
                     </div>
                 </div>
             </div>
@@ -99,114 +125,36 @@
         <section id="serveis" class="py-24 bg-slate-50">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16 reveal">
-                    <h2 class="text-3xl font-serif font-bold text-slate-900 sm:text-4xl mb-4">Àrees d'Especialització</h2>
+                    <h2 class="text-3xl font-serif font-bold text-slate-900 sm:text-4xl mb-4">Àrees d'Especialització Jurídica</h2>
                     <p class="text-lg text-slate-600 max-w-2xl mx-auto">
-                        Assessorament jurídic personalitzat en les branques més sensibles del dret civil.
+                        Assessorament personalitzat en dret successori, familiar i patrimonial.
                     </p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-1">
+                    <article class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-1">
                         <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
-                            <i data-lucide="file-text" class="h-6 w-6 text-amber-700"></i>
+                            <i data-lucide="file-text" class="h-6 w-6 text-amber-700" aria-hidden="true"></i>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Dret de Successions</h3>
-                        <p class="text-slate-600 mb-4">
-                            Gestió integral de testaments, herències, llegats i planificació successòria per protegir el seu patrimoni.
-                        </p>
-                        <ul class="space-y-2 text-sm text-slate-500">
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Redacció de testaments</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Acceptació d'herències</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Reclamació de llegítimes</li>
-                        </ul>
-                    </div>
+                        <p class="text-slate-600 mb-4">Gestió de testaments, herències i reclamació de llegítimes.</p>
+                    </article>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-2">
+                    <article class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-2">
                         <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
-                            <i data-lucide="users" class="h-6 w-6 text-amber-700"></i>
+                            <i data-lucide="users" class="h-6 w-6 text-amber-700" aria-hidden="true"></i>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Dret de Família</h3>
-                        <p class="text-slate-600 mb-4">
-                            Acompanyament en processos de divorci, separacions i custòdia, prioritzant sempre el benestar dels menors.
-                        </p>
-                        <ul class="space-y-2 text-sm text-slate-500">
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Divorcis i separacions</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Convenis reguladors</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Guarda i custòdia</li>
-                        </ul>
-                    </div>
+                        <p class="text-slate-600 mb-4">Divorcis, separacions i custòdia de menors.</p>
+                    </article>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-3">
+                    <article class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:-translate-y-1 reveal stagger-3">
                         <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
-                            <i data-lucide="briefcase" class="h-6 w-6 text-amber-700"></i>
+                            <i data-lucide="briefcase" class="h-6 w-6 text-amber-700" aria-hidden="true"></i>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Propietat i Registre</h3>
-                        <p class="text-slate-600 mb-4">
-                            Assessorament en transaccions immobiliàries, gestió de patrimoni i tràmits davant el Registre de la Propietat.
-                        </p>
-                        <ul class="space-y-2 text-sm text-slate-500">
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Compravendes</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Gestió de patrimoni</li>
-                            <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="h-4 w-4 text-amber-600"></i> Coordinació amb notaris</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="experiencia" class="py-24 bg-white">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    <div class="reveal">
-                        <h2 class="text-3xl font-serif font-bold text-slate-900 mb-8">Trajectòria Professional</h2>
-                        <div class="space-y-8">
-                            <div class="flex gap-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center">
-                                        <i data-lucide="graduation-cap" class="h-5 w-5 text-slate-600"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-slate-900">Formació Acadèmica</h4>
-                                    <p class="text-slate-600">Llicenciada en Dret per la Universitat Autònoma de Barcelona (UAB).</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center">
-                                        <i data-lucide="briefcase" class="h-5 w-5 text-slate-600"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-slate-900">Experiència Bancària</h4>
-                                    <p class="text-slate-600">Trajectòria prèvia en el sector bancari (BBVA), aportant una visió experta en gestió patrimonial i financera.</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center">
-                                        <i data-lucide="award" class="h-5 w-5 text-slate-600"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-slate-900">Col·legiació</h4>
-                                    <p class="text-slate-600">Membre activa de l'Il·lustre Col·legi d'Advocats de Vic (ICAVIC).</p>
-                                    <a href="https://icavic.cat/" target="_blank" class="text-amber-700 text-sm font-medium inline-flex items-center gap-1 mt-1 hover:underline">
-                                        Visitar ICAVIC <i data-lucide="external-link" class="h-3 w-3"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 reveal stagger-2">
-                        <blockquote class="text-xl font-serif italic text-slate-700 leading-relaxed mb-6">
-                            "La meva missió és oferir una coordinació directa i eficaç entre litigacions i notaris, garantint que cada client rebi un tracte personalitzat i professional en els moments més decisius."
-                        </blockquote>
-                        <div class="flex items-center gap-4">
-                            <div class="h-1 w-12 bg-amber-600"></div>
-                            <span class="font-bold text-slate-900">Sílvia València Farrés</span>
-                        </div>
-                    </div>
+                        <p class="text-slate-600 mb-4">Compravendes i coordinació amb notaris.</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -216,55 +164,28 @@
                 <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-200 reveal">
                     <div class="grid grid-cols-1 lg:grid-cols-2">
                         <div class="p-10 lg:p-16">
-                            <h2 class="text-3xl font-serif font-bold text-slate-900 mb-8">Dades de Contacte</h2>
+                            <h2 class="text-3xl font-serif font-bold text-slate-900 mb-8">Contacta amb el despatx a Vic</h2>
                             <div class="space-y-8">
-                                <div class="flex items-start gap-4">
-                                    <i data-lucide="map-pin" class="h-6 w-6 text-amber-700 mt-1"></i>
+                                <address class="not-italic flex items-start gap-4">
+                                    <i data-lucide="map-pin" class="h-6 w-6 text-amber-700 mt-1" aria-hidden="true"></i>
                                     <div>
                                         <h4 class="font-bold text-slate-900">Adreça</h4>
-                                        <p class="text-slate-600">Rambla de l'Hospital, 6, 3r 3a<br>08500 Vic, Barcelona</p>
+                                        <p class="text-slate-600">Rambla de l'Hospital, 6, 3r 3a, 08500 Vic</p>
                                     </div>
-                                </div>
+                                </address>
                                 <div class="flex items-start gap-4">
-                                    <i data-lucide="phone" class="h-6 w-6 text-amber-700 mt-1"></i>
+                                    <i data-lucide="phone" class="h-6 w-6 text-amber-700 mt-1" aria-hidden="true"></i>
                                     <div>
                                         <h4 class="font-bold text-slate-900">Telèfon</h4>
-                                        <p class="text-slate-600">
-                                            <a href="tel:+34660794079" class="hover:text-amber-700 transition-colors">660 79 40 79</a>
-                                        </p>
+                                        <p><a href="tel:+34660794079" class="text-slate-600 hover:text-amber-700 transition-colors">660 79 40 79</a></p>
                                     </div>
                                 </div>
-                                <div class="flex items-start gap-4">
-                                    <i data-lucide="mail" class="h-6 w-6 text-amber-700 mt-1"></i>
-                                    <div>
-                                        <h4 class="font-bold text-slate-900">Correu Electrònic</h4>
-                                        <p class="text-slate-600">
-                                            <a href="mailto:silviavalencia@icavic.cat" class="hover:text-amber-700 transition-colors">silviavalencia@icavic.cat</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="mt-12 pt-12 border-t border-slate-100">
-                                <a href="https://www.linkedin.com/in/s%C3%ADlvia-val%C3%A8ncia-85183263" target="_blank" class="inline-flex items-center gap-2 text-slate-600 hover:text-amber-700 transition-colors">
-                                    <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                                    </svg>
-                                    <span>Perfil de LinkedIn</span>
-                                </a>
                             </div>
                         </div>
-                        
-                        <div class="h-[400px] lg:h-auto min-h-[400px] bg-slate-200">
+                        <div class="h-[400px] lg:h-auto min-h-[400px]">
                             <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.340767510769!2d2.2519363!3d41.9298379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a526fb4697397b%3A0xc68291461973b754!2sRambla%20de%20l'Hospital%2C%206%2C%2008500%20Vic%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1700000000000!5m2!1sca!2ses" 
-                                width="100%" 
-                                height="100%" 
-                                style="border:0;" 
-                                allowfullscreen="" 
-                                loading="lazy" 
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.343588147698!2d2.2530123!3d41.930432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a527357c3d1b61%3A0x8e8e789a742c384e!2sRambla%20de%20l'Hospital%2C%206%2C%2008500%20Vic%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1700000000000!5m2!1sca!2ses" 
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa de la ubicación del despacho en Vic"></iframe>
                         </div>
                     </div>
                 </div>
@@ -274,36 +195,16 @@
 
     <footer class="bg-white py-12 border-t border-slate-200">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-slate-500 text-sm">
-                © <span id="year"></span> Sílvia València Farrés. Tots els drets reservats.
-            </p>
-            <p class="text-slate-400 text-xs mt-2">
-                Advocada col·legiada a l'Il·lustre Col·legi d'Advocats de Vic (ICAVIC).
-            </p>
+            <p class="text-slate-500 text-sm">© <span id="year"></span> Sílvia València Farrés. Tots els drets reservats.</p>
         </div>
     </footer>
 
     <script>
-        // Initialize Lucide icons
         lucide.createIcons();
-
-        // Set current year
         document.getElementById('year').textContent = new Date().getFullYear();
-
-        // Intersection Observer for scroll animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        }, observerOptions);
-
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
+        }, { threshold: 0.1 });
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     </script>
 </body>
